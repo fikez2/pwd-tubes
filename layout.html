@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Navigation Bars</title>
+    <style>
+        /* CSS styling for navigation bar 1 */
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(194, 189, 189);
+            padding: 5px 20px; /* Add padding for spacing */
+        }
+        .navbar img {
+            float: left; /* Float the image to the left */
+            height: 30px; /* Adjust the height as needed */
+            margin-right: 20px; /* Add margin for spacing */
+        }
+        .navbar .nav-links {
+            float: right;
+            text-align: center;
+             /* Float the navigation links to the right */
+        }
+        .navbar a {
+            display: inline-block; /* Display links inline */
+            color: rgb(4, 0, 0);
+            text-align: center;
+            padding: 2px 5px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: rgb(165, 164, 164);
+            color: rgba(146, 136, 136, 0.936);
+        }
+
+        /* CSS styling for navigation bar 2 */
+        .navbar2 {
+            overflow: hidden;
+            background-color: rgb(255, 255, 255);
+            padding: 10px 20px; /* Add padding for spacing */
+        }
+        .navbar2 img {
+            float: left; /* Float the image to the left */
+            height: 30px; /* Adjust the height as needed */
+            margin-right: 380px; /* Add margin for spacing */
+        }
+       
+        .navbar2 .nav-links {
+            float:center;
+            text-align:center;
+         /* Float the navigation links to the right */
+        }
+        .navbar2 a {
+            display: inline-block; /* Display links inline */
+            color: rgb(4, 0, 0);
+            text-align: center;
+            padding: 2px 5px;
+            text-decoration: none;
+        }
+        .navbar2 a:hover {
+            background-color: rgb(165, 164, 164);
+            color: rgba(146, 136, 136, 0.936);
+        }
+        
+        /* CSS styling for content */
+        .content {
+            text-align: center; /* Center align the content */
+            margin-top: 20px; /* Add margin at the top */
+        }
+        .content h2 {
+            color: rgb(4, 0, 0);
+        }
+        .content p {
+            color: rgb(4, 0, 0);
+        }
+        .gallery img {
+            width: 400px; /* Set the width of the images */
+            margin: 5px; /* Add margin around the images */
+        }
+        .section{
+            background-color: rgb(243, 245, 245);
+        }
+        .section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .suport {
+    flex: 1;
+    margin-right: 20px; /* Atur jarak antar bagian jika diperlukan */
+  }
+
+  .suport p {
+    margin: 100;
+  }
+  
+  .horizontal-line {
+  border: 1px solid rgb(112, 110, 110); /* Warna, ketebalan, dan jenis garis dapat disesuaikan */
+  width: 2000px; /* Atur lebar garis horizontal sesuai kebutuhan */
+}
+.horizontal{
+    padding-top: 50px;
+}
+
+
+  
+    </style>
+</head>
+<body>
+<!-- First Navigation Bar -->
+<div class="navbar">
+    <img src="https://logodownload.org/wp-content/uploads/2019/05/jordan-logo.png" alt="Logo"> <!-- Add your image source and alt text -->
+    <div class="nav-links">
+        <a href="#">Find a Store</a>
+        <a href="#">Help</a>
+        <a href="#">Join Us</a>
+        <a href="#">Sign In</a>
+    </div>
+</div>
+
+<!-- Second Navigation Bar -->
+<div class="navbar2">
+    <img src="https://mms.businesswire.com/media/20160511005885/en/524355/5/Nike_Swoosh_Logo_Black_original-(1).jpg?download=1" alt="Logo">
+        <a href="#">New & Featured</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Sale</a>
+        <a href="#">Customise</a>
+    </div>
+</div>
+<!-- Konten di bawah header -->
+<div class="Konten">
+    <p>Move, Shop, Customise & Celebrate With Us.
+        No matter what you feel like doing today, It’s better as a Member.Join Us.</p>
+    <div class="gallery">
+        <img src="https://www.suzukicdn.com/themes/default2019/img/img-automobile3.jpg?v=1.6.6" alt="Image 1">
+        <img src="https://www.suzuki.co.id/themes/default2019/img/img-motorcycle3.jpg?v=1.6.6" alt="Image 2">
+        <img src="https://www.suzukicdn.com/themes/default2019/img/img-marine.jpg?v=1.6.6" alt="Image 3">
+    </div>
+</div>
+<!-- Footer -->
+<footer class="section">
+<div class="suport">
+
+    <p>Support</p>
+    <p>Help center</p>
+    <p>Air Cover</p>
+    <p>Anti-discrimination</p>
+    <p>Disability Support</p>
+    <p>Cancellation option</p>
+    <p>Report Neightborhood concern</p>
+    
+</div>
+<div class="suport">
+
+    <p>Hoster</p>
+    <p>Airbnb your home</p>
+    <p>AirCover for Hosts</p>
+    <p>Hosting resources</p>
+    <p>Community forum</p>
+    <p>Hosting responsibly</p>
+    <p>Airbnb-friendly apartments</p>
+    <p>Join a free Hosting class</p>
+ 
+    
+</div>
+<div class="suport">
+    <p>Airbnb</p>
+    <p>Newsroom/p>
+    <p>New features</p>
+    <p>Careers</p>
+    <p>Investors</p>
+    <p>Gift cards</p>
+    <p>Airbnb.org emergency stays</p>
+   
+
+
+      
+</footer>
+<div class="horizontal">
+    <hr class="horizontal-line">
+
+</div>
+<p>&copy; 2024 Airbnb,Inc.  Terms .</p>
+
+</body>
+</html>
